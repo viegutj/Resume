@@ -20,10 +20,57 @@
     background-color: grey;
   }
 
-    .active {
+  .active {
     background-color: green;
   }
 
 .navbar li {
     border-right: 1px solid #bbb;
   }
+
+* {
+  font-family: monospace;
+}
+
+h2, h5, h6{
+  padding-top: 40px; 
+  text-decoration: underline;
+}
+
+main {
+  margin: 50px;
+}
+
+#references, #aboutme {
+  text-decoration: underline;
+}
+
+img {
+  float: left;
+  width:  200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px
+}
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
